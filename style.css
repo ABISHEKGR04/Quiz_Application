@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(./Tech2.jpg);
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-image: url(./Tech4.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #090909;
+}
+
+.choices {
+    list-style-type: none;
+    padding: 0;
+}
+
+.choices li {
+    margin: 20px 0;
+}
+
+button {
+    background-color:blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#score {
+    margin-top: 20px;
+    font-weight: bold;
+}
